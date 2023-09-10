@@ -4,10 +4,14 @@ function firstDoll(){
 
     let color1="brown";
     console.log(color1);
-    function secondDoll(color1){
+    function secondDoll(){
         let color2="white";
-        console.log(color2,color1);
+        console.log(color1,color2);
+        return `${color1} "+" ${color2}`
     }
     secondDoll();
+
+    
 }
+
 firstDoll();
